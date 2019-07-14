@@ -7,14 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HelloWorldComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit() {
   }
 
   showMessage() {
     const hello = document.getElementById('hello');
-    // hello.innerHTML = '<app-hello-world></app-hellow-world>';
+    hello.innerHTML = '<hello-world></hello-world>';
   }
 
 }

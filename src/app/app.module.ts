@@ -21,6 +21,6 @@ import { createCustomElement } from '@angular/elements';
 export class AppModule {
   constructor(injector: Injector) {
     const custom = createCustomElement(HelloWorldComponent, {injector});
-    customElements.define('app-hello-world', custom);
+    customElements.define('hello-world', custom);
   }
  }
